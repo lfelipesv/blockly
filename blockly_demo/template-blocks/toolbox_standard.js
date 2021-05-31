@@ -71,6 +71,7 @@ BLOCKLY_TOOLBOX_XML['standard'] =
 +   '<block type="cross_to_robot"></block>'
 +   '<block type="is_cross_to_robot_possible"></block>'
 +   '<block type="slide"></block>'
++   '<block type="header"></block>'
 + '</category>'
 + '<sep></sep>'
 + '<category name="Logic" colour="#0097bc">'

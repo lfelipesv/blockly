@@ -201,3 +201,9 @@ Blockly.Python['stop'] = function(block) {
     var code = 'speeds = self.action.SLIDE()\n';
     return code;
   };
+
+  Blockly.Python['header'] = function(block) {
+    // TODO: Assemble Python into code variable.
+    var code = 'speeds = self.action.header(robot_id)\n';
+    return code;
+  };
