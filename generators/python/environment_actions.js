@@ -197,3 +197,7 @@ Blockly.Python['stop'] = function(block) {
     return [code, Blockly.Python.ORDER_NONE];
   };
 
+  Blockly.Python['slide'] = function(block) {
+    var code = 'speeds = self.action.SLIDE()\n';
+    return code;
+  };
