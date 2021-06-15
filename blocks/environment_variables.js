@@ -56,7 +56,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     "previousStatement": null,
     "nextStatement": null,
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "이진 보상, 연속 보상, 드문 보상",
     "helpUrl": ""
   },
 
@@ -78,7 +78,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     "previousStatement": null,
     "nextStatement": null,
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "극좌표계, 상대적인",
     "helpUrl": ""
   },
 
@@ -100,7 +100,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     "previousStatement": null,
     "nextStatement": null,
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "위치, 속도",
     "helpUrl": ""
   },
 
@@ -122,7 +122,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     "previousStatement": null,
     "nextStatement": null,
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "작은, 큰",
     "helpUrl": ""
   },
 
@@ -146,7 +146,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "로봇 X 좌표계, 로봇 Y 좌표계, 로봇 방향",
     "helpUrl": ""
   },
 
@@ -168,7 +168,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "공 X 좌표계, 공 Y 좌표계, 공 Z 좌표계",
     "helpUrl": ""
   },
 
@@ -190,7 +190,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "상대팀 X 좌표계, 상대팀 Y 좌표계, 상대팀 방향",
     "helpUrl": ""
   },
 
@@ -214,7 +214,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "로봇 ID, 공에서 가장 가까운 로봇, 로봇에서 목표물, 공격 각도, 방어 각도",
     "helpUrl": ""
   },
 
@@ -240,7 +240,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "이전 공, 현재 공, 예측되는 공",
     "helpUrl": ""
   },
 
@@ -266,7 +266,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "로봇에서 골, 로봇에서 목표물, 로봇에서 공, 로봇에서 로봇",
     "helpUrl": ""
   },
 
@@ -289,7 +289,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "목표물",
     "helpUrl": ""
   },
 
@@ -321,7 +321,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_variables_blocks",
-    "tooltip": "",
+    "tooltip": "현재 자세, 상대팀 현재 자세, 이전 자세, 상대팀 이전 자세",
     "helpUrl": ""
   }
 ]);

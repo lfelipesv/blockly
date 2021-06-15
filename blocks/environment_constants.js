@@ -52,7 +52,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_constants_blocks",
-    "tooltip": "",
+    "tooltip": "로봇 크기, 바퀴 최대 선속",
     "helpUrl": ""
   },
 
@@ -79,7 +79,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     ],
     "output": "Number",
     "style": "environment_constants_blocks",
-    "tooltip": "",
+    "tooltip": "경기장 크기, 골대 크기, 페널티 구역 크기, 골 구역 크기",
     "helpUrl": ""
   }
 ]);
