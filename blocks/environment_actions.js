@@ -524,5 +524,27 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
       "tooltip": "",
       "helpUrl": ""
     },
-  
+
+    {
+      "type": "slide",
+      "message0": "슬라이딩",
+      "inputsInline": true,
+      "previousStatement": null,
+      "nextStatement": null,
+      "style": "environment_actions_blocks",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+
+    {
+      "type": "header",
+      "message0": "헤딩",
+      "inputsInline": true,
+      "previousStatement": null,
+      "nextStatement": null,
+      "style": "environment_actions_blocks",
+      "tooltip": "",
+      "helpUrl": ""
+    }
+
 ]);  // END JSON EXTRACT (Do not delete this comment.)
