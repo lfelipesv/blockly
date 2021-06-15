@@ -207,3 +207,13 @@ Blockly.Python['stop'] = function(block) {
     var code = 'speeds = self.action.header(robot_id)\n';
     return code;
   };
+
+  Blockly.Python['move_right'] = function(block) {
+    var code = 'speeds = self.action.MOVE_RIGHT()\n';
+    return code;
+  };
+
+  Blockly.Python['move_left'] = function(block) {
+    var code = 'speeds = self.action.MOVE_LEFT()\n';
+    return code;
+  };
