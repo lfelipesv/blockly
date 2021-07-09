@@ -103,7 +103,7 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
 
 {
   "type": "ddpg_buffer_size",
-  "message0": "1 buffer size: %2 ",
+  "message0": "%1 buffer size: %2 ",
   "args0": [
     {
       "type": "input_dummy"
