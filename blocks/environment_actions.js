@@ -538,7 +538,22 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
 
     {
       "type": "header",
-      "message0": "header",
+      "message0": "%1 header (predicted ball: %2  time: %3)",
+      "args0": [
+        {
+          "type": "input_dummy"
+        },
+        {
+          "type": "input_value",
+          "name": "x",
+          "check": "Array"
+        },
+        {
+          "type": "input_value",
+          "name": "y",
+          "check": "Number"
+        }
+      ],
       "inputsInline": true,
       "previousStatement": null,
       "nextStatement": null,

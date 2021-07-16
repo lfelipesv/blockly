@@ -284,6 +284,20 @@ Blockly.Python['distance'] = function(block) {
     return [code, Blockly.Python.ORDER_NONE];
   };
 
+  Blockly.Python['teammate_is_crossing'] = function(block) {
+    // TODO: Assemble Python into code variable.
+    var code = "self.recv_pass";
+    // TODO: Change ORDER_NONE to the correct strength.
+    return [code, Blockly.Python.ORDER_NONE];
+  };
+
+  Blockly.Python['predict_header_time'] = function(block) {
+    // TODO: Assemble Python into code variable.
+    var code = "helper.predict_header_time(cur_ball, prev_ball)";
+    // TODO: Change ORDER_NONE to the correct strength.
+    return [code, Blockly.Python.ORDER_NONE];
+  };
+
   Blockly.Python['looking_to_target'] = function(block) {
     // TODO: Assemble Python into code variable.
     var code = "helper.looking_to_target(cur_posture[robot_id], robot_to_target)";

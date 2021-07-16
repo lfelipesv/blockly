@@ -613,6 +613,26 @@ Blockly.defineBlocksWithJsonArray([  // BEGIN JSON EXTRACT
     },
 
     {
+      "type": "teammate_is_crossing",
+      "message0": "teammate is crossing",
+      "inputsInline": true,
+      "output": "Boolean",
+      "style": "environment_functions_blocks",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+
+    {
+      "type": "predict_header_time",
+      "message0": "predict header time",
+      "inputsInline": true,
+      "output": "Number",
+      "style": "environment_functions_blocks",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+
+    {
       "type": "looking_to_target",
       "message0": "robot looking to target",
       "inputsInline": true,

@@ -208,6 +208,14 @@ Blockly.Python['stop'] = function(block) {
     return code;
   };
 
+  Blockly.Python['header'] = function(block) {
+    // var value_1 = Blockly.Python.valueToCode(block, 'x', Blockly.Python.ORDER_ATOMIC);
+    var value_1 = Blockly.Python.valueToCode(block, 'x', Blockly.Python.ORDER_NONE) || 'None';
+    var value_2 = Blockly.Python.valueToCode(block, 'y', Blockly.Python.ORDER_ATOMIC);
+    var code = "speeds = self.action.header(" + value_1 + "," + value_2 + ")\n";
+    return code;
+  };
+
   Blockly.Python['move_right'] = function(block) {
     var code = 'speeds = self.action.MOVE_RIGHT()\n';
     return code;
